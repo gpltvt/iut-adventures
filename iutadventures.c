@@ -22,6 +22,12 @@ EXÉCUTION: .\iutadventures.exe */
 #define MAGENTA "\033[35m"
 #define GRIS    "\033[90m"
 
+// Styles de texte
+#define GRAS        "\033[1m"
+#define ITALIQUE    "\033[3m"
+#define SOULIGNE    "\033[4m"
+#define CLIGNOTE    "\033[5m"
+
 /* Liste de toutes les scènes possibles du jeu. 
 Les valeurs NOTOK correspondent aux scène pénalisantes. */
 typedef enum
@@ -175,7 +181,7 @@ SceneType trigger_random_event(const char *lang, SceneType current)
         int reponse = 0;
 
         printf(MAGENTA "\n╔══════════════════════════════════════╗\n" RESET);
-        printf(MAGENTA "║          ÉVÉNEMENT ALÉATOIRE         ║\n" RESET);
+        printf(CLIGNOTE MAGENTA "║          ÉVÉNEMENT ALÉATOIRE         ║\n" RESET);
         printf(MAGENTA "╚══════════════════════════════════════╝\n" RESET);
         if (strcmp(lang, "fr") == 0)
         {
@@ -203,8 +209,6 @@ SceneType trigger_random_event(const char *lang, SceneType current)
                 printf("\n\"Faux ! Vous êtes tout embrouille, vous vous perdez dans les couloirs...\"\n");
             else
                 printf("\n\"Wrong! You are all confused, you get lost in the hallways...\"\n");
-
-            SceneType punition[] = {SCENE_1};
             return SCENE_1;
         }
         else
