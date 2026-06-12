@@ -13,6 +13,15 @@ EXÉCUTION: .\iutadventures.exe */
     #include <windows.h>
 #endif
 
+// Codes couleur ANSI
+#define RESET   "\033[0m"
+#define CYAN    "\033[36m"
+#define JAUNE   "\033[33m"
+#define VERT    "\033[32m"
+#define ROUGE   "\033[31m"
+#define MAGENTA "\033[35m"
+#define GRIS    "\033[90m"
+
 /* Liste de toutes les scènes possibles du jeu. 
 Les valeurs NOTOK correspondent aux scène pénalisantes. */
 typedef enum
@@ -147,9 +156,9 @@ void display_progress(int current, int total, const char *lang)
     for (int i = 0; i < 20; i++)
     {
         if (i < pos)
-            printf("=");
+            printf(VERT "█" RESET);
         else
-            printf(" ");
+            printf(GRIS "░" RESET);
     }
     printf("] %.0f%%\n", percent);
 }
@@ -165,17 +174,19 @@ SceneType trigger_random_event(const char *lang, SceneType current)
         char input[100];
         int reponse = 0;
 
-        printf("\n************************************************************\n");
+        printf(MAGENTA "\n╔══════════════════════════════════════╗\n" RESET);
+        printf(MAGENTA "║          ÉVÉNEMENT ALÉATOIRE         ║\n" RESET);
+        printf(MAGENTA "╚══════════════════════════════════════╝\n" RESET);
         if (strcmp(lang, "fr") == 0)
         {
-            printf("EVENEMENT ALEATOIRE : Un prof de com' vous attrape !\n");
+            printf("Un prof de com' vous attrape !\n");
             printf("\"Vite ! Lequel de ces élèments n'est PAS un obstacle à la communication ?\"\n");
             printf("1. Le bruit environnant\n2. L'empathie\n3. Le manque de feedback\n");
             printf("Votre réponse : ");
         }
         else
         {
-            printf("RANDOM EVENT: A communication teacher stops you!\n");
+            printf("A communication teacher stops you!\n");
             printf("\"Quick! Which of these is NOT a barrier to communication?\"\n");
             printf("1. Physical noise\n2. Empathy\n3. Lack of feedback\n");
             printf("Your answer: ");
@@ -942,7 +953,7 @@ int main(int argc, char *argv[])
 
         if (choix_invalide)
         {
-            printf("\n%s\n", txt->unknown_choice);
+            printf(ROUGE "\n%s\n" RESET, txt->unknown_choice);
             choix_invalide = 0;
         }
 
@@ -955,10 +966,9 @@ int main(int argc, char *argv[])
         }
 
         if (strcmp(lang, "fr") == 0)
-            printf("Ton choix (ou 0 pour quitter): ");
+            printf(GRIS "  [ M ] Carte  [ 0 ] Quitter\n" RESET);
         else
-            printf("Your choice (or 0 to quit): ");
-
+            printf(GRIS "  [ M ] Map    [ 0 ] Quit\n" RESET);
         if (fgets(input_buffer, sizeof(input_buffer), stdin) != NULL)
         {
             // Carte
@@ -1022,8 +1032,9 @@ int main(int argc, char *argv[])
         }
     }
 
-    printf("%s\n", txt->thanks);
-    printf("  Personnage/Character: %s\n", personnage.nom);
-
+    printf(CYAN "\n╔══════════════════════════════════════╗\n" RESET);
+    printf(CYAN "║" RESET JAUNE "Personnage : %-25s" RESET CYAN "║\n" RESET, personnage.nom);
+    printf(CYAN "╚══════════════════════════════════════╝\n" RESET);
+    
     return 0;
 }
