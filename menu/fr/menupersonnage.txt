@@ -1,10 +1,10 @@
 Choisis ton personnage...
 Les voici:
 Mme MELEC, super prof d'Anglais! (tape m)
-Mme La DAUPHINE, prof de Comm geniale! (tape d)
-Mr CAPTAIN', pointilleux prof de WEB! ("psycopat") (tape t)
-Mme LETTRES, prof flexible de Gestion des Organisations! (tape l)
-Mr ATHE, prof d'algebre respectable! (tape a)
-Mr COCOT, demi-dieu rempli de cafeine! (tape c)
-Mr PANDA, adorable directeur des etudes! (tape p) (personnage en déploiement, indisponible)...
+Mme La DAUPHINE, prof de Comm géniale! (tape d) (en dev)
+Mr CAPTAIN', pointilleux prof de WEB! (tape t)
+Mme LETTRES, prof flexible de Gestion des Organisations! (tape l) (en dev)
+Mr ATHE, prof d'algèbre respectable! (tape a)
+Mr COCOT, demi-dieu rempli de caféine! (tape c) (en dev)
+Mr PANDA, adorable directeur des études! (tape p) (personnage en déploiement, indisponible)...
 [TON CHOIX]
