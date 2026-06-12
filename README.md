@@ -6,9 +6,6 @@ Jeu textuel à choix multiples développé dans le cadre du BUT1 (2025-2026).
 
 ## Principe du jeu
 
-Tu incarnes un personnage de l'IUT et tu dois naviguer à travers une série de situations du quotidien universitaire.  
-À chaque scène, plusieurs choix s'offrent à toi — certains te feront avancer, d'autres… moins.
-
 - Fais les bons choix pour progresser et atteindre la victoire
 - Un mauvais choix peut mener au **Game Over**
 - Des **événements aléatoires** peuvent surgir à tout moment et te poser des questions surprises
