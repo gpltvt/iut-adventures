@@ -1,6 +1,6 @@
-Vous ne me decevez pas avec vos réponses! La derniere!
-3eme question: « La fonction print() est une fonction... »
+Vous ne me décevez pas avec vos réponses! La dernière!
+« La fonction print() est une fonction... »
 [CHOIX]
 1. d'impression 
-2. d'entree 
+2. d'entrée 
 3. affine 

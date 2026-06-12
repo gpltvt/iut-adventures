@@ -1,7 +1,7 @@
-Enfin... Il va falloir developper votre culture! 
-La deuxieme question est plus simple, vous devriez y arriver...
-Deuxieme question: « L’acronyme du PIB est... »
+Enfin... Il va falloir développer votre culture! 
+La deuxième question est plus simple, vous devriez y arriver...
+« L’acronyme du PIB est... »
 [CHOIX]
-1. Produit Interieur Basique
-2. Parlement Imaginaire et Betises
-3. Produit Interieur Brut
+1. Produit Intérieur Basique
+2. Parlement Imaginaire et Bêtises
+3. Produit Intérieur Brut

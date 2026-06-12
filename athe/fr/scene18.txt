@@ -1,4 +1,4 @@
-Vous arrivez devant la salle des profs... Voulez-vous vous y aventurez?
+Vous arrivez devant la salle des profs... Voulez-vous vous y aventurer?
 [CHOIX]
-1. OUI! Je veux voir mes collegues preferes!
-2. Oh non... Je deteste ça...
+1. OUI! Je veux voir mes collègues préférés!
+2. Oh non... Je déteste ça...
