@@ -1,6 +1,6 @@
 Well done.. Now, time for the last question... 
 You're lucky, this one's easy!
-3rd question: « The print() function is a ... function. »
+« The print() function is a ... function. »
 [CHOICES]
 1. printing
 2. input

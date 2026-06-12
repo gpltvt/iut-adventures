@@ -1,6 +1,6 @@
 Not bad. But we don't stop here.
-Question 2: « What is the e-mail address of the IUTLCO ? » 
+« What is the e-mail address of the IUTLCO ? » 
 [CHOICES]
-1. iutinfo @univ-littoral.fr 
-2. iutinfo @univ-cotedopale.fr 
-3. iutinfo @iut-calais.fr 
+1. iutinfo@univ-littoral.fr 
+2. iutinfo@univ-cotedopale.fr 
+3. iutinfo@iut-calais.fr 

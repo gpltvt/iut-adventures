@@ -1,5 +1,5 @@
 Well done! But it's just the beginning...
-2nd question: « The signature of the function is accessible on … and is sent back as ... »
+« The signature of the function is accessible on … and is sent back as ... »
 [CHOICES]
 1. ...file...list
 2. ...terminal...text

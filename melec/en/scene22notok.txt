@@ -1,5 +1,5 @@
 Be AWARE! Last little question for you...
-Third question: « The ICT acronym is... »
+« The ICT acronym is... »
 [CHOICES]
 1. I Can't Talk !
 2. Information and Communication Technologies 

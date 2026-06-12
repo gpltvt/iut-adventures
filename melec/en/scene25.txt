@@ -1,5 +1,5 @@
 You decided to go inside! You found Mme La Dauphine! But be careful... She too wants to ask you questions before any further conversation! 
-First question: "What did Cicero say?" 
+"What did Cicero say?" 
 [CHOICES]
 1. "The eyes are the mirror of the soul"
 2. "The soul is the mirror of the eyes"
