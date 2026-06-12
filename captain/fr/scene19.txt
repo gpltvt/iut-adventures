@@ -1,0 +1,6 @@
+La dernière question est simple... Vous avez de la chance!
+Troisième question: « La fonction print() est une fonction... »
+[CHOIX]
+1. ...d’impression
+2. ...d’entrée
+3. ...affine

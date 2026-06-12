@@ -1,0 +1,5 @@
+En vous dirigeant vers la droite, vous arrivez devant la salle 135.
+Voulez-vous y entrer?
+[CHOIX]
+1. Oui
+2. Non (Se diriger vers la 138)

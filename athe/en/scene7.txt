@@ -1,0 +1,4 @@
+Now that you are in the hall, you can:
+[CHOICES]
+1. Go to the cafeteria and get a nice sweet coffee
+2. Go to the first floor

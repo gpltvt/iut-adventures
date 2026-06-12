@@ -1,0 +1,4 @@
+Vous arrivez devant la 138... Voulez-vous y entrer?
+[CHOIX]
+1. Oui
+2. Non!!!!!!

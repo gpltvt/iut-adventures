@@ -1,0 +1,6 @@
+Faites mieux que ça. Sinon je vous note!
+3ème question: « La fonction print() est une fonction... »
+[CHOIX]
+1. d'impression
+2. d'entrée
+3. affine

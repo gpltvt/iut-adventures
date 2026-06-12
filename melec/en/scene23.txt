@@ -1,0 +1,4 @@
+Now, you can go right or left...
+[CHOICES]
+1. Go left (Teachers' office)
+2. Go right (Room 138)

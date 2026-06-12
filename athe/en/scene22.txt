@@ -1,0 +1,5 @@
+You arrive in front of room 135.
+Do you enter?
+[CHOICES]
+1. Yes, I want to go inside!
+2. No! I keep walking down the hallway

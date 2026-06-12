@@ -1,0 +1,5 @@
+Vous arrivez devant la 135.
+Entrez-vous?
+[CHOIX]
+1. Oui, je veux m'y aventurer!
+2. Non! Je continue de marcher dans le couloir

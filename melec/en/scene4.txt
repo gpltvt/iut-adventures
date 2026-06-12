@@ -1,0 +1,4 @@
+In the hallway, you can...
+[CHOICES]
+1. Go to the first floor
+2. Go to the cafeteria (a little coffee to wake you up?)

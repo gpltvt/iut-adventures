@@ -1,0 +1,9 @@
+Vous avez decide d'entrer et tombez sur Mr Captain'!
+Il corrige ses copies mais a oublie quelques notions...
+Aidez-le!
+Mr Captain' : "Je pose une question bonus a mes eleves mais j'ai moi-meme oublie... quelle rigueur..."
+Question 1: « Quel polo je portais le 3 septembre ? »
+[CHOIX]
+1. Polo orange
+2. Polo vert
+3. Polo bleu nuit

@@ -1,0 +1,5 @@
+Vous êtes sortie de votre voiture, vous vous trouvez sur le parking...
+Voulez-vous:
+[CHOIX]
+1. Être sérieuse, entrer et travailler (faut bien payer les courses...)
+2. Rester sur le bitume et contempler le ciel sombre.

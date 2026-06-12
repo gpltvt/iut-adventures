@@ -1,0 +1,5 @@
+Vous êtes maintenant au premier etage!
+A ce niveau, vous pouvez...
+[CHOIX]
+1. Aller a gauche
+2. Aller a droite

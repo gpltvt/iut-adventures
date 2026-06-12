@@ -1,0 +1,5 @@
+You are now on the first floor!
+On this floor, you can...
+[CHOICES]
+1. Go to the right
+2. Go to the left

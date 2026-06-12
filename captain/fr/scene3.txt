@@ -1,0 +1,5 @@
+En décidant de rester au premier étage, vous pouvez
+[CHOIX]
+1. Aller à droite (Salle 135)
+2. Aller à gauche (Bureau de Mr Panda)
+3. Descendre pour parcourir le hall

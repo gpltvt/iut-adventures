@@ -1,0 +1,6 @@
+Well done... but that was only the beginning...
+Second question: “The function signature is accessible through the … and is returned as …”
+[CHOICES]
+1. ...file ... list
+2. ...terminal ... text
+3. ...code ... dictionary

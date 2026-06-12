@@ -1,0 +1,7 @@
+Vous avez décidé d'y entrer! Vous avez trouvé Mme La Dauphine!
+Mais attention... Elle aussi, elle veut vous poser des questiosn avant toute autre conversation!
+Première question: « Qu’a dit Cicéron? »
+[CHOIX]
+1. « Les yeux sont le miroir de l’âme »
+2. « L’âme est le miroir des yeux »
+3. « Le miroir est le miroir du miroir »

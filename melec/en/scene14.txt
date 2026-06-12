@@ -1,0 +1,4 @@
+You arrive at the teachers' office... Wanna get in??
+[CHOICES]
+1. YES! I want to see my fellow coworkers
+2. Oh no... I hate that...

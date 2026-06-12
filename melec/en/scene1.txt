@@ -1,0 +1,6 @@
+You are Mrs MELEC
+You are in your car right now...
+Do you want to get out?
+[CHOICES]
+1. YES
+2. NO, I'm in love with my car.

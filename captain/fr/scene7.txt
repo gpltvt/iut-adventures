@@ -1,0 +1,5 @@
+Vous vous trouvez dans la cafet.
+Un choix se propose à vous:
+[CHOIX]
+1. Prendre un café sucré pour bien vous réveiller
+2. Ressortir de la cafet

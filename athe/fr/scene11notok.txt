@@ -1,0 +1,7 @@
+pffff... 
+Vous commencez a sentir la chaleur du cafe sur votre crane...
+3eme question: « La fonction print() est une fonction... »
+[CHOIX]
+1. d'impression 
+2. d'entre 
+3. affine 

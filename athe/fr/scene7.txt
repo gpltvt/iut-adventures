@@ -1,0 +1,5 @@
+Maintenant que vous etes dans le hall, vous pouvez:
+[CHOIX]
+1. Aller a la cafet et prendre un bon cafe sucre 
+2. Sortir de l'IUT 
+3. Aller au premier étage 

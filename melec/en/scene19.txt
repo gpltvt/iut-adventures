@@ -1,0 +1,5 @@
+You are in front of the room 135.
+Wanna enter?
+[CHOICES]
+1. Yes! What a wonderful adventure!
+2. No! I want to walk in the corridor.

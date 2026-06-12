@@ -1,0 +1,3 @@
+Maintenant vous pouvez aller à gauche ou à droite
+1. Aller à gauche (Salle des profs)
+2. Aller à droite (Salle 138)

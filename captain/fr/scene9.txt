@@ -1,0 +1,5 @@
+Vous vous retrouvez devant la 138.
+Souhaitez-vous vous y aventurer?
+[CHOIX]
+1. Oui
+2. Non

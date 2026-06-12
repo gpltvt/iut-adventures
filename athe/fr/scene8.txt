@@ -1,0 +1,5 @@
+Vous vous trouvez dans la cafet
+A cet endroit, vous pouvez...
+[CHOIX]
+1. Prendre un cafe bien chaud 
+2. Ressortir 

@@ -1,0 +1,5 @@
+You are in the cafeteria.
+Here, you can...
+[CHOICES]
+1. Take a hot coffee
+2. Leave

@@ -1,0 +1,5 @@
+You have stepped out of your car, you are in the parking lot... 
+Do you want to: 
+[CHOICES]
+1. Be serious, go inside and work (groceries won't pay for themselves...)
+2. Stay on the asphalt and gaze at the dark sky.

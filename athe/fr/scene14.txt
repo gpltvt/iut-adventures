@@ -1,0 +1,8 @@
+Vous etes entre dans le bureau...
+Tant que vous etes le, Mr Panda aimerait vous poser des questions
+Mr Panda: "Je verifie vos connaissances sur le reglement, rien de complique, 3 petites questions..."
+1ere question: « Quel est le role de Mr Panda dans l’IUT ? 
+[CHOIX]
+1. Principal adjoint
+2. Directeur des etudes
+3. Professeur de SNT

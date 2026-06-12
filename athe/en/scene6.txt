@@ -1,0 +1,5 @@
+You are now in the UIT.
+What do you want to do?:
+[CHOICES]
+1. Walk down the hall 
+2. Go to the first floor

@@ -1,0 +1,7 @@
+Pffff...
+You start to feel the heat on your head...
+Third question: “The print() function is a...”
+[CHOICES]
+1. ...output function
+2. ...input function
+3. ...affine function

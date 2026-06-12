@@ -1,0 +1,3 @@
+GAME OVER: Vous avez perdu votre partie.
+Peut-être que vous gagnerez à votre prochaine partie... Ou pas?
+Bonne chance à vous, ou bon courage...

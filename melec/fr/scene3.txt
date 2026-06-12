@@ -1,0 +1,5 @@
+Vous êtes entrée dans l'IUT.
+Voulez-vous:
+[CHOIX]
+1. Parcourir le hall
+2. Monter au premier étage

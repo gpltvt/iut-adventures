@@ -1,0 +1,5 @@
+En vous dirigeant vers la gauche, vous arrivez devant le bureau de Mr Panda
+Voulez-vous y entrer?
+[CHOIX]
+1. OUI
+2. Non

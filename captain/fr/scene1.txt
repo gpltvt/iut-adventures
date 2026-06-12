@@ -1,0 +1,7 @@
+Vous êtes Mr Captain'
+Vous êtes actuellement en salle des profs.
+Vous pouvez en sortir, ou rester ici.
+Que voulez-vous faire?
+[CHOIX]
+1. Sortir de la salle des profs avec un beau polo 
+2. Rester dans la salle et se reposer!

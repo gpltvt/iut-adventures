@@ -1,0 +1,5 @@
+You are now in the cafeteria!
+In this place, you can...
+[CHOICES]
+1. Take a hot and comforting coffee
+2. Get out

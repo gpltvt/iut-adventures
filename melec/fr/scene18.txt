@@ -1,0 +1,5 @@
+Maintenant vous pouvez aller à gauche, à droite ou redescendre
+[CHOIX]
+1. Aller à gauche (Bureau de Mr Panda)
+2. Aller à droite (Salle 135)
+3. Redescendre (Parcourir le hall)

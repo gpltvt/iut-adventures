@@ -1,0 +1,6 @@
+That's GREAT! Next question!
+Question 2: « The definition of WAN ? »
+[CHOIX]
+1. A network in a small area
+2. A network covering a large area or country 
+3. A network covering a city 

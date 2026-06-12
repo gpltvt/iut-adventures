@@ -1,0 +1,6 @@
+You are Mr ATHÉ.
+You are currently in the Large Lecture Hall...
+Do you want to leave it?
+[CHOICES]
+1. YES
+2. NO, I would like to teach in an empty lecture hall.

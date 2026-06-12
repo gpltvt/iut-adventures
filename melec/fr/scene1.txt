@@ -1,0 +1,6 @@
+Vous êtes Mme Melec
+Vous vous trouvez dans votre voiture...
+Souhaitez-vous sortir de celle-ci?
+[CHOIX]
+1. OUI
+2. NON, je suis bien ici.

@@ -1,0 +1,4 @@
+You arrive in front of the teachers’ lounge... Do you want to enter?
+[CHOICES]
+1. YES! I want to see my colleagues
+2. Oh no... I hate that...

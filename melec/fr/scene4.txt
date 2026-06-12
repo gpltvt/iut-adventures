@@ -1,0 +1,4 @@
+Dans le hall, vous pouvez...
+[CHOIX]
+1. Monter au premier étage
+2. Aller à la cafet (il faut se réveiller avec un petit café...)

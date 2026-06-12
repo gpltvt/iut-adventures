@@ -1,0 +1,5 @@
+Vous vous trouvez maintenant au premier étage!
+Vous avez le choix de...
+[CHOIX]
+1. Rester au premier étage 
+2. Descendre pour parcourir le hall 

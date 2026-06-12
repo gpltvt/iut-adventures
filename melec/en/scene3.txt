@@ -1,0 +1,5 @@
+You are now inside the IUTLCO.
+What do you want to do?:
+[CHOICES]
+1. Walk down the hallway
+2. Go to the first floor

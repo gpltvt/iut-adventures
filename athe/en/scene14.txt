@@ -1,0 +1,8 @@
+You enter the office...
+Since you are here, Mr Panda would like to ask you some questions.
+Mr Panda: “I’m checking your knowledge of the rules, nothing complicated, just three small questions...”
+First question: “What is Mr Panda’s role in the IUT?”
+[CHOICES]
+1. Assistant principal
+2. Director of studies
+3. Computer science teacher

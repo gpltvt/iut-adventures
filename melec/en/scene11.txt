@@ -1,0 +1,8 @@
+You enetered the office...
+While you're here, Mr Panda wants to ask you some questions
+Mr Panda: "I check your knowledge on the school rules, don't worry, it's just 3 little questions..."
+1st question: « What is the job of Mr PANDA here ? »
+[CHOICES]
+1. Assistant principal
+2. Studies director
+3. TCS (Tech and Computer Science) teacher

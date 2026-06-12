@@ -1,0 +1,10 @@
+Choose your character...
+Here they are:
+Mrs MELEC, awesome English teacher! (enter m)
+Mrs La DAUPHINE, wonderful Communication teacher! (enter d)
+Mr CAPTAIN', picky WEB teacher! ("psycopat") (enter t)
+Mrs LETTRES, easy-going Companies Organisation teacher! (enter l)
+Mr ATHE, honorable Algebra teacher (enter a)
+Mr COCOT, cafeinated demi-god! (enter c)
+Mr PANDA, adorable studies director! (enter p) (character in developpment, not an option right now)...
+[YOUR CHOICE]

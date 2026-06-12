@@ -1,0 +1,5 @@
+Now you can go right, left, or go down the stairs
+[CHOICES]
+1. Go left (Mr Panda's office)
+2. Go right (Room 135)
+3. Go down the stairs (Walk down the hallway)

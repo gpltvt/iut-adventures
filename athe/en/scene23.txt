@@ -1,0 +1,8 @@
+You decide to enter room 135. You meet Mrs Lettres.
+She would like your opinion on the questions she is preparing...
+Mrs Lettres: “Focus!”
+First question: “The pact presented in 2019 to reduce greenhouse gas emissions is...”
+[CHOICES]
+1. The Green Deal
+2. The Ecology Pact
+3. The Environment Pact

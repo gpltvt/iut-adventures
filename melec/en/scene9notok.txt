@@ -1,0 +1,7 @@
+Do better, else, i'll assess your work!
+You're lucky, this one's easy!
+3rd question: « The print() function is a ... function. »
+[CHOICES]
+1. printing
+2. input
+3. affine

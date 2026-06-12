@@ -1,0 +1,8 @@
+Vous êtes entré dans la 138.
+Vous tombez sur Mme La Dauphine, assoupie sur ses copies à corriger.
+Aidez-la!
+Première question: « Qu’a dit Cicéron? »
+[CHOIX]
+1. « Les yeux sont le miroir de l’âme »
+2. « L’âme est le miroir des yeux »
+3. « Le miroir est le miroir du miroir »

@@ -1,0 +1,6 @@
+Peut-être que vous pourrez finir votre café dignement...
+Deuxième question: « La signature de la fonction est accessible par le … et est renvoyée comme ... »
+[CHOIX]
+1. ...fichier...liste
+2. ...terminal...texte
+3. ...code...dictionnaire

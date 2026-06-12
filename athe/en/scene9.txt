@@ -1,0 +1,8 @@
+You drank a coffee, and Mr Cocot saw you!
+He wanted THAT coffee. He is angry and wants to ask you questions...
+Mr COCOT: “Python quiz!!!”
+First question: “Python is considered a...”
+[CHOICES]
+1. ...compiled language
+2. ...reflective language
+3. ...web language

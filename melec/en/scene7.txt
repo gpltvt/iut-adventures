@@ -1,0 +1,8 @@
+You drank a coffee, Mr COCOT saw you! 
+He wanted THIS coffee, now he's mad and want to question you...
+Mr COCOT: Pyhton TEST!!!
+1st Question... « Python is defined as a ... language »
+[CHOICES]
+1. compiled
+2. reflexive
+3. WEB
