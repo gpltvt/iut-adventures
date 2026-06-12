@@ -114,7 +114,7 @@ typedef struct
 // Textes de l'interface en français
 const GameTexts text_fr = {
     "      BIENVENUE DANS LE JEU",
-    "Appuie sur Entree pour commencer...",
+    "Appuie sur Entrée pour commencer...",
     "    SELECTION DU PERSONNAGE",
     "Ton choix (ou 0 pour quitter et m pour la map): ",
     "Choix non reconnu...",
@@ -169,9 +169,9 @@ SceneType trigger_random_event(const char *lang, SceneType current)
         if (strcmp(lang, "fr") == 0)
         {
             printf("EVENEMENT ALEATOIRE : Un prof de com' vous attrape !\n");
-            printf("\"Vite ! Lequel de ces elements n'est PAS un obstacle a la communication ?\"\n");
+            printf("\"Vite ! Lequel de ces élèments n'est PAS un obstacle à la communication ?\"\n");
             printf("1. Le bruit environnant\n2. L'empathie\n3. Le manque de feedback\n");
-            printf("Votre reponse : ");
+            printf("Votre réponse : ");
         }
         else
         {
@@ -189,7 +189,7 @@ SceneType trigger_random_event(const char *lang, SceneType current)
         if (reponse != 2)
         { 
             if (strcmp(lang, "fr") == 0)
-                printf("\n\"Faux ! Vous etes tout embrouille, vous vous perdez dans les couloirs...\"\n");
+                printf("\n\"Faux ! Vous êtes tout embrouille, vous vous perdez dans les couloirs...\"\n");
             else
                 printf("\n\"Wrong! You are all confused, you get lost in the hallways...\"\n");
 
@@ -203,7 +203,6 @@ SceneType trigger_random_event(const char *lang, SceneType current)
             else
                 printf("\n\"Correct! Keep going on your way.\"\n");
         }
-        printf("************************************************************\n");
         printf("Appuie sur Entree pour continuer...");
         fgets(input, sizeof(input), stdin);
     }
@@ -228,7 +227,7 @@ void load_scene(const char *folder, const char *filename)
     if (in_file == NULL)
     {
         printf("ERREUR: Fichier introuvable -> %s\n", filepath);
-        printf("Appuie sur Entree/Press Enter...");
+        printf("Appuie sur Entrée/Press Enter...");
         getchar();
         return;
     }
@@ -328,9 +327,7 @@ void select_language(char *lang_code)
 #else
         system("clear");
 #endif
-        printf("\n========================================\n");
         printf("      LANGUAGE / LANGUE\n");
-        printf("========================================\n\n");
         printf("1. Francais\n");
         printf("2. English\n\n");
         printf("Choice: ");
@@ -366,9 +363,7 @@ Personnage select_personnage(const char *lang, const GameTexts *txt)
 
     do
     {
-        printf("\n========================================\n");
         printf("%s\n", txt->select_title);
-        printf("========================================\n\n");
 
         load_scene(menu_path, "menupersonnage.txt");
 
@@ -429,7 +424,7 @@ Personnage select_personnage(const char *lang, const GameTexts *txt)
             break;
         default:
             printf("\n>>> %s <<<\n", txt->unknown_choice);
-            printf("Appuie sur Entree pour reessayer...");
+            printf("Appuie sur Entrée pour reessayer...");
             fgets(buffer, sizeof(buffer), stdin);
 
 #ifdef _WIN32
@@ -485,7 +480,7 @@ int main(int argc, char *argv[])
 
     // Chargement du logo et sélection de la langue
     load_scene("menu", "logo.md");
-    printf("\nAppuie sur Entree pour commencer...");
+    printf("\nAppuie sur Entrée pour commencer...");
     fgets(input_buffer, sizeof(input_buffer), stdin);
     select_language(lang);
     if (strcmp(lang, "fr") == 0)
@@ -496,9 +491,7 @@ int main(int argc, char *argv[])
     {
         txt = &text_en;
     }
-    printf("\n========================================\n");
     printf("%s\n", txt->welcome_title);
-    printf("========================================\n\n");
     printf("%s", txt->press_enter);
     fgets(input_buffer, sizeof(input_buffer), stdin);
 
@@ -967,7 +960,7 @@ int main(int argc, char *argv[])
             {
                 load_scene("menu", "map.txt");
                 
-                printf("\n(Appuie sur Entree pour replier le plan/Press enter to fold the map...)");
+                printf("\n(Appuie sur Entrée pour replier le plan/Press enter to fold the map...)");
                 fgets(input_buffer, sizeof(input_buffer), stdin);
                 continue; 
             }
@@ -1023,10 +1016,8 @@ int main(int argc, char *argv[])
         }
     }
 
-    printf("\n========================================\n");
     printf("%s\n", txt->thanks);
     printf("  Personnage/Character: %s\n", personnage.nom);
-    printf("========================================\n\n");
 
     return 0;
 }
