@@ -1,5 +1,5 @@
 That's GREAT! Next question!
-Question 2: « The definition of WAN ? »
+« The definition of WAN ? »
 [CHOICES]
 1. A network in a small area
 2. A network covering a large area or country 

@@ -1,7 +1,7 @@
 You disappoint me a little...
 If you don’t get yourself together, your coffee will end up on your head!
 Let’s continue:
-Second question: “The function signature is accessible through the … and is returned as …”
+“The function signature is accessible through the … and is returned as …”
 [CHOICES]
 1. ...file ... list
 2. ...terminal ... text

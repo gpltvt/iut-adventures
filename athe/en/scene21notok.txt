@@ -1,6 +1,6 @@
 You are really not a good psychopath!
 Last question...
-Third question: “What does the acronym ‘HTML’ stand for?”
+“What does the acronym ‘HTML’ stand for?”
 [CHOICES]
 1. HyperText Markup Language
 2. HyperText Markdown Language

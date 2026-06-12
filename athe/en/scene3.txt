@@ -2,7 +2,7 @@ You go to see Mrs MELEC. She is in her car and needs your help...
 Because of tiredness, she has forgotten some vocabulary...
 Mrs MELEC:
 “I wouldn’t mind a little help.”
-Question 1: “How do you say ‘BUT informatique’ in English?”
+“How do you say ‘BUT informatique’ in English?”
 [CHOICES]
 1. Bachelor of Technology in Computer Science
 2. Computer Bachelor in Science of Technology

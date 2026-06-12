@@ -2,7 +2,7 @@ You decide to enter and meet Mr Captain!
 He is correcting papers but has forgotten a few things...
 Help him!
 Mr Captain: “I asked a bonus question to my students, but I forgot the answer myself... such rigor...”
-Question 1: “Which polo shirt was I wearing on September 3rd?"
+“Which polo shirt was I wearing on September 3rd?"
 [CHOICES]
 1. Orange polo shirt
 2. Green polo shirt

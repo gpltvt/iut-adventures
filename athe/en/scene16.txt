@@ -1,5 +1,5 @@
 Hmm... one last question to confirm your knowledge.
-Third question: “What is the article number for justified absences in the study regulations?”
+“What is the article number for justified absences in the study regulations?”
 [CHOICES]
 1. III.1.2
 2. II.1.2

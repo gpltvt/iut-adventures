@@ -1,5 +1,5 @@
 Hummm, I fear that's not correct... (You can see the disappointment on your colleague’s face.)
-Anyway, Question 2: « The definition of WAN ? »
+Anyway « The definition of WAN ? »
 [CHOICES]
 1. A network in a small area 
 2. A network covering a large area or country 

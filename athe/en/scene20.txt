@@ -1,5 +1,5 @@
 Oh yes, that’s right!! Now for the real questions...
-Second question: “In Hick’s law, the maximum number of elements is...”
+“In Hick’s law, the maximum number of elements is...”
 [CHOICES]
 1. ...5 elements
 2. ...6 elements
