@@ -26,7 +26,6 @@ EXÉCUTION: .\iutadventures.exe */
 #define GRAS        "\033[1m"
 #define ITALIQUE    "\033[3m"
 #define SOULIGNE    "\033[4m"
-#define CLIGNOTE    "\033[5m"
 
 /* Liste de toutes les scènes possibles du jeu. 
 Les valeurs NOTOK correspondent aux scène pénalisantes. */
@@ -181,19 +180,19 @@ SceneType trigger_random_event(const char *lang, SceneType current)
         int reponse = 0;
 
         printf(MAGENTA "\n╔══════════════════════════════════════╗\n" RESET);
-        printf(CLIGNOTE MAGENTA "║          ÉVÉNEMENT ALÉATOIRE         ║\n" RESET);
+        printf(GRAS MAGENTA "║          ÉVÉNEMENT ALÉATOIRE         ║\n" RESET);
         printf(MAGENTA "╚══════════════════════════════════════╝\n" RESET);
         if (strcmp(lang, "fr") == 0)
         {
             printf("Un prof de com' vous attrape !\n");
-            printf("\"Vite ! Lequel de ces élèments n'est PAS un obstacle à la communication ?\"\n");
+            printf(ITALIQUE "\"Vite ! Lequel de ces élèments n'est PAS un obstacle à la communication ?\"\n");
             printf("1. Le bruit environnant\n2. L'empathie\n3. Le manque de feedback\n");
             printf("Votre réponse : ");
         }
         else
         {
             printf("A communication teacher stops you!\n");
-            printf("\"Quick! Which of these is NOT a barrier to communication?\"\n");
+            printf(ITALIQUE "\"Quick! Which of these is NOT a barrier to communication?\"\n");
             printf("1. Physical noise\n2. Empathy\n3. Lack of feedback\n");
             printf("Your answer: ");
         }
@@ -206,17 +205,17 @@ SceneType trigger_random_event(const char *lang, SceneType current)
         if (reponse != 2)
         { 
             if (strcmp(lang, "fr") == 0)
-                printf("\n\"Faux ! Vous êtes tout embrouille, vous vous perdez dans les couloirs...\"\n");
+                printf(ITALIQUE ROUGE "\n\"Faux ! Vous êtes tout embrouille, vous vous perdez dans les couloirs...\"\n");
             else
-                printf("\n\"Wrong! You are all confused, you get lost in the hallways...\"\n");
+                printf(ITALIQUE ROUGE "\n\"Wrong! You are all confused, you get lost in the hallways...\"\n");
             return SCENE_1;
         }
         else
         {
             if (strcmp(lang, "fr") == 0)
-                printf("\n\"Exact ! Continuez votre chemin.\"\n");
+                printf(ITALIQUE VERT "\n\"Exact ! Continuez votre chemin.\"\n");
             else
-                printf("\n\"Correct! Keep going on your way.\"\n");
+                printf(ITALIQUE VERT "\n\"Correct! Keep going on your way.\"\n");
         }
         printf("Appuie sur Entree pour continuer...");
         fgets(input, sizeof(input), stdin);
@@ -241,7 +240,7 @@ void load_scene(const char *folder, const char *filename)
     FILE *in_file = fopen(filepath, "r");
     if (in_file == NULL)
     {
-        printf("ERREUR: Fichier introuvable -> %s\n", filepath);
+        printf(GRAS ROUGE "ERREUR: Fichier introuvable -> %s\n", filepath);
         printf("Appuie sur Entrée/Press Enter...");
         getchar();
         return;
@@ -1037,7 +1036,7 @@ int main(int argc, char *argv[])
     }
 
     printf(CYAN "\n╔══════════════════════════════════════╗\n" RESET);
-    printf(CYAN "║" RESET JAUNE "Personnage : %-25s" RESET CYAN "║\n" RESET, personnage.nom);
+    printf(CYAN "║" GRAS JAUNE "Personnage : %-25s" RESET CYAN "║\n" RESET, personnage.nom);
     printf(CYAN "╚══════════════════════════════════════╝\n" RESET);
     
     return 0;
