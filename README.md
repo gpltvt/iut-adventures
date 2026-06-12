@@ -15,7 +15,7 @@ Tu incarnes un personnage de l'IUT et tu dois naviguer à travers une série de 
 - Une **carte de l'IUT** est disponible en cours de partie (touche `m`)
 - Le jeu est disponible en **français et en anglais**
 
-## 👥 Personnages jouables
+## Personnages jouables
 
 | Touche | Personnage         | Statut           |
 |--------|--------------------|------------------|
