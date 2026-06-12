@@ -1,2 +1,2 @@
-GAME OVER: Le python n'est pas votre tasse de the?
-Prenez un cafe. (un bon cafe ne fait de mal à personne...)
+GAME OVER: Python n'est pas votre tasse de thé?
+Prenez un café. (un bon café ne fait de mal à personne...)
