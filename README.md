@@ -37,5 +37,4 @@ gcc iutadventures.c -o iutadventures
 .\iutadventures.exe
 
 ## Autrice
-
 **PLAETEVOET Gaëlle** — Projet BUT1 IUT (2025-2026)
