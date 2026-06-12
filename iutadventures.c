@@ -639,6 +639,8 @@ int main(int argc, char *argv[])
         {SCENE_27_NOTOK, 3, GAME_OVER7, 1},
     };
 
+    //Transition transitions_ladauphine[] = {}
+
     Transition transitions_captain[] = {
         {SCENE_1, 1, SCENE_2, 0},
         {SCENE_1, 2, GAME_OVER1, 1},
@@ -746,6 +748,8 @@ int main(int argc, char *argv[])
         {SCENE_20_NOTOK, 3, GAME_OVER6, 1},
         
     };
+
+    //Transition transitions_lettres[] = {}
 
     Transition transitions_athe[] = {
         {SCENE_1, 1, SCENE_2, 0},
@@ -899,6 +903,8 @@ int main(int argc, char *argv[])
         {SCENE_29_NOTOK, 3, GAME_OVER8, 1}, 
     
     };
+
+    //Transition transitions_cocot[] = {}
 
     // Attribution des transitions selon le personnage choisi
     switch (personnage.id)
