@@ -1,5 +1,5 @@
 Mr Panda a en tête de vous virer... rattrapez-vous tout de suite
-Deuxième question: « Quelle est l’adresse mail de l’IUT ? »
+« Quelle est l’adresse mail de l’IUT ? »
 [CHOIX]
 1. iutinfo @univ-littoral.fr
 2. iutinfo @univ-cotedopale.fr

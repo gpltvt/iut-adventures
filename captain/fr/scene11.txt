@@ -1,6 +1,6 @@
 Vous avez pris un café sans Mr Cocot? Il vous a vu et vous en veut...
 Répondez à ses questions, sinon le café va vous revenir sur la tête...
-Première question: « Python se qualifie comme un langage... »
+« Python se qualifie comme un langage... »
 [CHOIX]
 1. ...compilé
 2. ...réflexif

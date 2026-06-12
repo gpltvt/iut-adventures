@@ -1,6 +1,6 @@
 La dernière question est simple... Rattrapez-vous sur celle-ci!
 Sinon... Bonne chance pour tout recommencer!
-Troisième question: « La fonction print() est une fonction... »
+« La fonction print() est une fonction... »
 [CHOIX]
 1. ...d’impression
 2. ...d’entrée
