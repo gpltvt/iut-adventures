@@ -2,7 +2,7 @@ Choose your character...
 Here they are:
 Mrs MELEC, awesome English teacher! (enter m)
 Mrs La DAUPHINE, wonderful Communication teacher! (enter d)
-Mr CAPTAIN', picky WEB teacher! ("psycopat") (enter t)
+Mr CAPTAIN', picky WEB teacher! (enter t)
 Mrs LETTRES, easy-going Companies Organisation teacher! (enter l)
 Mr ATHE, honorable Algebra teacher (enter a)
 Mr COCOT, cafeinated demi-god! (enter c)
