@@ -1036,7 +1036,7 @@ int main(int argc, char *argv[])
     }
 
     printf(CYAN "\n╔══════════════════════════════════════╗\n" RESET);
-    printf(CYAN "║" GRAS JAUNE "Personnage : %-25s" RESET CYAN "║\n" RESET, personnage.nom);
+    printf(CYAN "║" GRAS JAUNE "Personnage: %-25s" RESET CYAN " ║\n" RESET, personnage.nom);
     printf(CYAN "╚══════════════════════════════════════╝\n" RESET);
     
     return 0;
