@@ -1,7 +1,7 @@
 Vous avez bu un café, Mr Cocot vous a vu! 
 Il voulait CE café, il vous en veut et veut vous poser des questions...
 Mr COCOT: Interro Python!!!
-1ère question... « Python se qualifie comme un langage... »
+« Python se qualifie comme un langage... »
 [CHOIX]
 1. compilé
 2. réflexif

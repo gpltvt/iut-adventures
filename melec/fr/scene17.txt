@@ -1,5 +1,5 @@
 OK! Je pense être d'accord avec vous... Dernière question!
-Question 3: « L’acronyme de ‘HTML’ est... »
+« L’acronyme de ‘HTML’ est... »
 1. HyperText Markup Language
 2. HyperText Markdown Language
 3. HyperText MrSynave Language

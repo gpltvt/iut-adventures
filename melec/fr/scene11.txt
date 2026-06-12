@@ -1,7 +1,7 @@
 Vous êtes entrée dans le bureau...
 Tant que vous êtes là, Mr Panda aimerait vous poser des questions
 Mr Panda: "Je vérifie vos connaissances sur le réglement, rien de compliqué, 3 petites questions..."
-1ère question: « Quel est le rôle de Mr Panda dans l’IUT ? 
+« Quel est le rôle de Mr Panda dans l’IUT ? 
 [CHOIX]
 1. Principal adjoint
 2. Directeur des études

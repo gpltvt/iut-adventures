@@ -1,5 +1,5 @@
 Pas mal pour un début. Mais on s'arrête pas là.
-Question 2: « Quelle est l’adresse mail de l’IUT ? 
+« Quelle est l’adresse mail de l’IUT ? 
 [CHOIX]
 1. iutinfo @univ-littoral.fr 
 2. iutinfo @univ-cotedopale.fr 

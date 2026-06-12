@@ -1,5 +1,5 @@
 Bien joué... mais ce n'était que le début...
-2ème question: « La signature de la fonction est accessible par le … et est renvoyée comme ... »
+« La signature de la fonction est accessible par le … et est renvoyée comme ... »
 [CHOIX]
 1. ...fichier...liste
 2. ...terminal...texte

@@ -1,8 +1,7 @@
 VICTOIRE!
 Félicitations, vous avez retrouvé Mme La Dauphine!
 Profitez de votre victoire bien méritée, et recommencez le jeu, avec un autre collègue à rechercher dans notre IUT...
-Bravo, et bonne chance... :)
+Bravo, et bonne chance...
 
 CRÉDITS:
-MAHIEU Ella & PLAETEVOET Gaëlle
-Vos développeuses de jeu de pacotilles préférées <3
+PLAETEVOET Gaëlle
