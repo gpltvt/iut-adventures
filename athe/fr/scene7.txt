@@ -1,5 +1,5 @@
-Maintenant que vous etes dans le hall, vous pouvez:
+Maintenant que vous êtes dans le hall, vous pouvez:
 [CHOIX]
-1. Aller a la cafet et prendre un bon cafe sucre 
+1. Aller a la cafét et prendre un bon café sucré 
 2. Sortir de l'IUT 
 3. Aller au premier étage 

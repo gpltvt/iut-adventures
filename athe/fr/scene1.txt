@@ -1,4 +1,4 @@
-Vous etes Mr ATHE
+Vous êtes Mr ATHE
 Vous vous trouvez actuellement dans le Grand Amphi...
 Souhaitez-vous sortir de celui-ci?
 [CHOIX]

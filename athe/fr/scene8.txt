@@ -1,5 +1,5 @@
-Vous vous trouvez dans la cafet
+Vous vous trouvez dans la cafét
 A cet endroit, vous pouvez...
 [CHOIX]
-1. Prendre un cafe bien chaud 
+1. Prendre un café bien chaud 
 2. Ressortir 

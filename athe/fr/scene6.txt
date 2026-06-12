@@ -2,4 +2,4 @@ Vous entrez dans l'IUT.
 Voulez-vous:
 [CHOIX]
 1. Parcourir le hall 
-2. Monter au premier etage 
+2. Monter au premier étage 

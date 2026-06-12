@@ -1,6 +1,6 @@
-Vous me decevez un peu... Vous allez finir avec votre cafe sur la tete si vous ne vous resaisissez pas!
+Vous me décevez un peu... Vous allez finir avec votre café sur la tête si vous ne vous resaisissez pas!
 Aller, la suite:
-2eme question: « La signature de la fonction est accessible par le … et est renvoyee comme ... »
+2eme question: « La signature de la fonction est accessible par le … et est renvoyée comme ... »
 [CHOIX]
 1. ...fichier...liste
 2. ...terminal...texte 
