@@ -14,18 +14,18 @@ EXÉCUTION: .\iutadventures.exe */
 #endif
 
 // Codes couleur ANSI
-#define RESET   "\033[0m"
-#define CYAN    "\033[36m"
-#define JAUNE   "\033[33m"
-#define VERT    "\033[32m"
-#define ROUGE   "\033[31m"
+#define RESET "\033[0m"
+#define CYAN "\033[36m"
+#define JAUNE "\033[33m"
+#define VERT "\033[32m"
+#define ROUGE "\033[31m"
 #define MAGENTA "\033[35m"
-#define GRIS    "\033[90m"
+#define GRIS "\033[90m"
 
 // Styles de texte
-#define GRAS        "\033[1m"
-#define ITALIQUE    "\033[3m"
-#define SOULIGNE    "\033[4m"
+#define GRAS "\033[1m"
+#define ITALIQUE "\033[3m"
+#define SOULIGNE "\033[4m"
 
 /* Liste de toutes les scènes possibles du jeu. 
 Les valeurs NOTOK correspondent aux scène pénalisantes. */
