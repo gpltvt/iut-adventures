@@ -127,24 +127,24 @@ typedef struct
 
 // Textes de l'interface en français
 const GameTexts text_fr = {
-    "      BIENVENUE DANS LE JEU",
+    GRAS "      BIENVENUE DANS LE JEU" RESET,
     "Appuie sur Entrée pour commencer...",
-    "    SELECTION DU PERSONNAGE",
+    GRAS "    SELECTION DU PERSONNAGE" RESET,
     "Ton choix (ou 0 pour quitter et m pour la map): ",
     "Choix non reconnu...",
     "Au revoir !",
-    "      MERCI D'AVOIR JOUE !",
+    GRAS "      MERCI D'AVOIR JOUE !" RESET,
     "Tu as choisi : "};
 
 // Textes de l'interface en anglais
 const GameTexts text_en = {
-    "      WELCOME TO THE GAME",
+    GRAS "      WELCOME TO THE GAME" RESET,
     "Press Enter to start...",
-    "    CHARACTER SELECTION",
+    GRAS "    CHARACTER SELECTION" RESET,
     "Your choice (or 0 to quit or m for the map): ",
     "Unknown choice...",
     "Goodbye!",
-    "      THANKS FOR PLAYING!",
+    GRAS "      THANKS FOR PLAYING!" RESET,
     "You chose: "};
 
 // Barre de progression selon la scène actuelle et le total de scènes du personnage
@@ -185,16 +185,16 @@ SceneType trigger_random_event(const char *lang, SceneType current)
         if (strcmp(lang, "fr") == 0)
         {
             printf("Un prof de com' vous attrape !\n");
-            printf(ITALIQUE "\"Vite ! Lequel de ces élèments n'est PAS un obstacle à la communication ?\"\n");
+            printf(ITALIQUE "\"Vite ! Lequel de ces élèments n'est PAS un obstacle à la communication ?\"\n" RESET);
             printf("1. Le bruit environnant\n2. L'empathie\n3. Le manque de feedback\n");
-            printf("Votre réponse : ");
+            printf(GRAS ROUGE "Votre réponse : " RESET);
         }
         else
         {
             printf("A communication teacher stops you!\n");
             printf(ITALIQUE "\"Quick! Which of these is NOT a barrier to communication?\"\n");
             printf("1. Physical noise\n2. Empathy\n3. Lack of feedback\n");
-            printf("Your answer: ");
+            printf(GRAS ROUGE "Your answer: " RESET);
         }
 
         if (fgets(input, sizeof(input), stdin) != NULL)
@@ -205,17 +205,17 @@ SceneType trigger_random_event(const char *lang, SceneType current)
         if (reponse != 2)
         { 
             if (strcmp(lang, "fr") == 0)
-                printf(ITALIQUE ROUGE "\n\"Faux ! Vous êtes tout embrouille, vous vous perdez dans les couloirs...\"\n");
+                printf(ITALIQUE ROUGE "\n\"Faux ! Vous êtes tout embrouille, vous vous perdez dans les couloirs...\"\n" RESET);
             else
-                printf(ITALIQUE ROUGE "\n\"Wrong! You are all confused, you get lost in the hallways...\"\n");
+                printf(ITALIQUE ROUGE "\n\"Wrong! You are all confused, you get lost in the hallways...\"\n" RESET);
             return SCENE_1;
         }
         else
         {
             if (strcmp(lang, "fr") == 0)
-                printf(ITALIQUE VERT "\n\"Exact ! Continuez votre chemin.\"\n");
+                printf(ITALIQUE VERT "\n\"Exact ! Continuez votre chemin.\"\n" RESET);
             else
-                printf(ITALIQUE VERT "\n\"Correct! Keep going on your way.\"\n");
+                printf(ITALIQUE VERT "\n\"Correct! Keep going on your way.\"\n" RESET);
         }
         printf("Appuie sur Entree pour continuer...");
         fgets(input, sizeof(input), stdin);
