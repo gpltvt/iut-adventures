@@ -928,17 +928,25 @@ int main(int argc, char *argv[])
         nb_transitions = sizeof(transitions_melec) / sizeof(Transition);
         max_scenes = 37;
         break;
+    /*case 2:
+        transitions = transitions_ladauphine; */
     case 3:
         transitions = transitions_captain;
         nb_transitions = sizeof(transitions_captain) / sizeof(Transition);
         max_scenes = 28;
         break;
+    /*case 4:
+        transitions = transitions_lettres; */
     case 5:
         transitions = transitions_athe;
         nb_transitions = sizeof(transitions_athe) / sizeof(Transition);
         max_scenes = 41;
         break;
     }
+    /*case 6:
+        transitions = transitions_cocot; */
+    /*case 7:
+        transitions = transitions_panda; */
 
     // Boucle principale du jeu
     while (game_running)
