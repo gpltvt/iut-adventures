@@ -1,4 +1,5 @@
-You are now inside the IUTLCO.
+You are now inside the UIT.
+Your goal is to find Mrs Ladauphine. But where is she?
 What do you want to do?:
 [CHOICES]
 1. Walk down the hallway

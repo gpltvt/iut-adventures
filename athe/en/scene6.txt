@@ -1,4 +1,5 @@
 You are now in the UIT.
+Your goal is to find Mr Cocot. But where is he?
 What do you want to do?:
 [CHOICES]
 1. Walk down the hall 

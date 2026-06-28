@@ -1,4 +1,5 @@
 Vous entrez dans l'IUT.
+Votre objectif est de retrouver Mr Cocot! Mais où est-il?
 Voulez-vous:
 [CHOIX]
 1. Parcourir le hall 

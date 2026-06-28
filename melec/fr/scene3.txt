@@ -1,4 +1,5 @@
 Vous êtes entrée dans l'IUT.
+Votre objectif est de retrouver Mme Ladauphine. Mais où est-elle?
 Voulez-vous:
 [CHOIX]
 1. Parcourir le hall
