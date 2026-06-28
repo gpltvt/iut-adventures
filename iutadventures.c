@@ -147,6 +147,15 @@ const GameTexts text_en = {
     GRAS "      THANKS FOR PLAYING!" RESET,
     "You chose: "};
 
+// Affiche une ligne centrée dans un cadre de largeur donnée
+void print_centered(const char *texte, int largeur_cadre)
+{
+    int len = (int)strlen(texte);
+    int pad_gauche = (largeur_cadre - len) / 2;
+    int pad_droite = largeur_cadre - len - pad_gauche;
+    printf("║%*s%s%*s║\n", pad_gauche, "", texte, pad_droite, "");
+}
+
 // Barre de progression selon la scène actuelle et le total de scènes du personnage
 void display_progress(int current, int total, const char *lang)
 {
@@ -192,7 +201,7 @@ SceneType trigger_random_event(const char *lang, SceneType current)
         else
         {
             printf("A communication teacher stops you!\n");
-            printf(ITALIQUE "\"Quick! Which of these is NOT a barrier to communication?\"\n");
+            printf(ITALIQUE "\"Quick! Which of these is NOT a barrier to communication?\"\n" RESET);
             printf("1. Physical noise\n2. Empathy\n3. Lack of feedback\n");
             printf(GRAS ROUGE "Your answer: " RESET);
         }
@@ -942,11 +951,11 @@ int main(int argc, char *argv[])
         nb_transitions = sizeof(transitions_athe) / sizeof(Transition);
         max_scenes = 41;
         break;
-    }
     /*case 6:
         transitions = transitions_cocot; */
     /*case 7:
         transitions = transitions_panda; */
+    }
 
     // Boucle principale du jeu
     while (game_running)
@@ -968,8 +977,12 @@ int main(int argc, char *argv[])
             choix_invalide = 0;
         }
 
-        printf("\n========================================\n");
-        printf("[Personnage: %s]\n", personnage.nom);
+        char ligne_perso[60];
+        sprintf(ligne_perso, "Personnage : %s", personnage.nom);
+
+        printf("\n╔══════════════════════════════════════╗\n");
+        print_centered(ligne_perso, 38);
+        printf("╚══════════════════════════════════════╝\n");
 
         if (current_scene < GAME_OVER1)
         {
@@ -1043,8 +1056,15 @@ int main(int argc, char *argv[])
         }
     }
 
+    char ligne_perso[60];
+    sprintf(ligne_perso, "Personnage : %s", personnage.nom);
+    int len = (int)strlen(ligne_perso);
+    int pad_gauche = (38 - len) / 2;
+    int pad_droite = 38 - len - pad_gauche;
+
     printf(CYAN "\n╔══════════════════════════════════════╗\n" RESET);
-    printf(CYAN "║" GRAS JAUNE "Personnage: %-25s" RESET CYAN " ║\n" RESET, personnage.nom);
+    printf(CYAN "║" RESET "%*s" GRAS JAUNE "%s" RESET "%*s" CYAN "║\n" RESET,
+           pad_gauche, "", ligne_perso, pad_droite, "");
     printf(CYAN "╚══════════════════════════════════════╝\n" RESET);
     
     return 0;
