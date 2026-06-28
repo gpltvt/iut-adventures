@@ -18,7 +18,7 @@ Jeu textuel à choix multiples développé dans le cadre du BUT1 (2025-2026).
 |--------|--------------------|------------------|
 | `M`    | Mme MELEC          | Disponible       |
 | `D`    | Mme La DAUPHINE    | En développement |
-| `T`    | Mr CAPTAIN         | Disponible       |
+| `T`    | Mr CAPTAIN         | Disponible en fr |
 | `L`    | Mme LETTRES        | En développement |
 | `A`    | Mr ATHE            | Disponible       |
 | `C`    | Mr COCOT           | En développement |
