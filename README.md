@@ -35,6 +35,6 @@ gcc iutadventures.c -o iutadventures
 ```bash
 # Windows
 .\iutadventures.exe
+```
 
-## Autrice
-PLAETEVOET Gaëlle — Projet BUT1 IUT (2025-2026)
+**Autrice: PLAETEVOET Gaëlle — Projet BUT1 IUT (2025-2026)**
