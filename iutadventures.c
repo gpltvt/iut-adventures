@@ -553,6 +553,58 @@ void display_results(int scenes, int max, int mauvais, int evenements, time_t de
     printf(CYAN "╚══════════════════════════════════════╝\n" RESET);
 }
 
+// Sauvegarde la partie en cours dans save.txt
+void save_game(SceneType scene, Personnage perso, const char *lang, int mauvais, int evenements, int scenes, time_t debut)
+{
+    FILE *f = fopen("save.txt", "w");
+    if (f == NULL)
+    {
+        printf(ROUGE "Erreur : impossible de sauvegarder.\n" RESET);
+        return;
+    }
+    time_t temps_ecoule = time(NULL) - debut;
+    fprintf(f, "%d\n",    (int)scene);
+    fprintf(f, "%d\n",    perso.id);
+    fprintf(f, "%s\n",    perso.folder);
+    fprintf(f, "%s\n",    perso.nom);
+    fprintf(f, "%s\n",    lang);
+    fprintf(f, "%d\n",    mauvais);
+    fprintf(f, "%d\n",    evenements);
+    fprintf(f, "%d\n",    scenes);
+    fprintf(f, "%ld\n",   (long)temps_ecoule);
+    fclose(f);
+    printf(VERT "Partie sauvegardée !\n" RESET);
+}
+
+// Charge une sauvegarde depuis save.txt, retourne 1 si succès
+int load_game(SceneType *scene, Personnage *perso, char *lang, int *mauvais, int *evenements, int *scenes, time_t *debut)
+{
+    FILE *f = fopen("save.txt", "r");
+    if (f == NULL)
+        return 0;
+
+    int scene_id, temps_ecoule;
+    if (fscanf(f, "%d\n",  &scene_id)        != 1) { fclose(f); return 0; }
+    if (fscanf(f, "%d\n",  &perso->id)       != 1) { fclose(f); return 0; }
+    if (fgets(perso->folder, 50, f)           == NULL) { fclose(f); return 0; }
+    if (fgets(perso->nom,    50, f)           == NULL) { fclose(f); return 0; }
+    if (fgets(lang,           5, f)           == NULL) { fclose(f); return 0; }
+    if (fscanf(f, "%d\n",  mauvais)          != 1) { fclose(f); return 0; }
+    if (fscanf(f, "%d\n",  evenements)       != 1) { fclose(f); return 0; }
+    if (fscanf(f, "%d\n",  scenes)           != 1) { fclose(f); return 0; }
+    if (fscanf(f, "%d\n",  &temps_ecoule)    != 1) { fclose(f); return 0; }
+    fclose(f);
+
+    // Nettoyer les \n laissés par fgets
+    perso->folder[strcspn(perso->folder, "\n")] = 0;
+    perso->nom[strcspn(perso->nom,    "\n")] = 0;
+    lang[strcspn(lang, "\n")] = 0;
+
+    *scene = (SceneType)scene_id;
+    *debut = time(NULL) - temps_ecoule;
+    return 1;
+}
+
 // Initialisation
 int main(int argc, char *argv[])
 {
@@ -563,6 +615,7 @@ int main(int argc, char *argv[])
     srand(time(NULL));
 
     SceneType current_scene = SCENE_1;
+    Personnage personnage;
     int choix;
     int game_running = 1;
     int choix_invalide = 0;
@@ -581,20 +634,41 @@ int main(int argc, char *argv[])
     printf("\nAppuie sur Entrée pour commencer...");
     fgets(input_buffer, sizeof(input_buffer), stdin);
     select_language(lang);
-    if (strcmp(lang, "fr") == 0)
-    {
-        txt = &text_fr;
-    }
-    else
-    {
-        txt = &text_en;
-    }
-    printf("%s\n", txt->welcome_title);
-    printf("%s", txt->press_enter);
-    fgets(input_buffer, sizeof(input_buffer), stdin);
 
-    // Sélection du personnage et chargement de ses transitions
-    Personnage personnage = select_personnage(lang, txt);
+    // Vérification d'une sauvegarde existante
+    int reprise = 0;
+    FILE *test_save = fopen("save.txt", "r");
+    if (test_save != NULL)
+    {
+        fclose(test_save);
+        char rep[10];
+        printf(JAUNE "\nUne sauvegarde existe. Reprendre ? (o/n) : " RESET);
+        fgets(rep, sizeof(rep), stdin);
+        if (rep[0] == 'o' || rep[0] == 'O')
+        {
+            reprise = load_game(&current_scene, &personnage, lang,
+                                &nb_mauvais_choix, &nb_evenements,
+                                &nb_scenes_visitees, &temps_debut);
+            if (reprise)
+                printf(VERT "Partie reprise !\n" RESET);
+            else
+                printf(ROUGE "Sauvegarde corrompue, nouvelle partie.\n" RESET);
+        }
+    }
+
+    if (strcmp(lang, "fr") == 0)
+        txt = &text_fr;
+    else
+        txt = &text_en;
+
+    // Sélection du personnage uniquement si pas de reprise
+    if (!reprise)
+    {
+        printf("%s\n", txt->welcome_title);
+        printf("%s", txt->press_enter);
+        fgets(input_buffer, sizeof(input_buffer), stdin);
+        personnage = select_personnage(lang, txt);
+    }
 
     Transition *transitions;
     int nb_transitions;
@@ -1107,6 +1181,7 @@ int main(int argc, char *argv[])
         {
             current_scene = next_scene;
             nb_scenes_visitees++;
+            save_game(current_scene, personnage, lang, nb_mauvais_choix, nb_evenements, nb_scenes_visitees, temps_debut);
 
             if (fin == 0)
             {
@@ -1134,6 +1209,7 @@ int main(int argc, char *argv[])
                 printf("\n%s\n", txt->thanks);
                 printf("\nAppuie sur Entrée pour quitter...");
                 fgets(input_buffer, sizeof(input_buffer), stdin);
+                remove("save.txt");
                 game_running = 0;
             }
         }
