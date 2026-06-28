@@ -1,5 +1,5 @@
 Vous êtes Mr Captain'
-Votre objectif est de retrouver Mme Lettres. But where is she?
+Votre objectif est de retrouver Mme Lettres. Mais où est-elle?
 Vous êtes actuellement en salle des profs.
 Vous pouvez en sortir, ou rester ici.
 Que voulez-vous faire?

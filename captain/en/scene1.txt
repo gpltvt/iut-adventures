@@ -1,0 +1,8 @@
+You are Mr Captain!
+Your objective is to find Mrs Lettres. But where is she?
+You are currently in the teachers' lounge.
+You can leave, or stay here.
+What do you want to do?
+[CHOICE]
+1. Leave the teachers' lounge wearing a fine polo shirt
+2. Stay in the room and get some rest!

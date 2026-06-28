@@ -1,0 +1,5 @@
+You find yourself in front of room 138.
+Do you want to enter?
+[CHOICE]
+1. Yes
+2. No

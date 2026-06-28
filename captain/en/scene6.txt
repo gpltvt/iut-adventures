@@ -1,0 +1,5 @@
+Heading left, you arrive in front of Mr Panda's office.
+Do you want to go in?
+[CHOICE]
+1. YES
+2. No

@@ -1,0 +1,5 @@
+You are now on the first floor!
+You can choose to...
+[CHOICE]
+1. Stay on the first floor
+2. Go downstairs to explore the hall

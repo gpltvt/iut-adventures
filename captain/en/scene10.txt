@@ -1,0 +1,6 @@
+You have entered the fearsome Mr Panda's office...
+Unfortunately for you, he wants to ask you questions about the rulebook
+"What is Mr Panda's role at the UIT?"
+1. Deputy Principal
+2. Director of Studies
+3. SNT Teacher

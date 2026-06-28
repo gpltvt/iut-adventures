@@ -1,0 +1,5 @@
+By deciding to stay on the first floor, you can:
+[CHOICE]
+1. Go right (Room 135)
+2. Go left (Mr Panda's office)
+3. Go downstairs to explore the hall

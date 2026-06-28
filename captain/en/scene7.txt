@@ -1,0 +1,5 @@
+You are in the cafeteria.
+A choice presents itself:
+[CHOICE]
+1. Grab a sweet coffee to wake yourself up
+2. Leave the cafeteria

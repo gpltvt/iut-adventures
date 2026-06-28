@@ -1,0 +1,4 @@
+Now that you are in the hall, you can:
+[CHOICE]
+1. Head to the cafeteria and grab a nice sweet coffee
+2. Leave the UIT

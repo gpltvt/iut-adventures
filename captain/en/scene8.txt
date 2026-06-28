@@ -1,0 +1,7 @@
+You have entered room 135.
+You find Mrs Lettres there!
+However, she wants to ask you some questions before any further conversation!
+"The pact presented in 2019 to reduce greenhouse gas emissions is..."
+1. The Green Pact
+2. The Ecology Pact
+3. The Environmental Pact

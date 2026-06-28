@@ -1,0 +1,7 @@
+You had a coffee without Mr Cocot? He saw you and is not happy...
+Answer his questions, or that coffee is going to end up on your head...
+"Python is classified as a... language"
+[CHOICE]
+1. ...compiled
+2. ...reflective
+3. ...WEB
