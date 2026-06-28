@@ -133,7 +133,7 @@ const GameTexts text_fr = {
     "Ton choix (ou 0 pour quitter et m pour la map): ",
     "Choix non reconnu...",
     "Au revoir !",
-    GRAS "      MERCI D'AVOIR JOUE !" RESET,
+    GRAS "          MERCI D'AVOIR JOUE !" RESET,
     "Tu as choisi : "};
 
 // Textes de l'interface en anglais
@@ -144,7 +144,7 @@ const GameTexts text_en = {
     "Your choice (or 0 to quit or m for the map): ",
     "Unknown choice...",
     "Goodbye!",
-    GRAS "      THANKS FOR PLAYING!" RESET,
+    GRAS "          THANKS FOR PLAYING!" RESET,
     "You chose: "};
 
 // Affiche une ligne centrée dans un cadre de largeur donnée
@@ -482,6 +482,77 @@ SceneType get_next_scene(SceneType current, int choix, Transition *transitions, 
     return current;
 }
 
+// Compte les caractères visibles (et non les octets) pour l'UTF-8
+int strlen_utf8(const char *s)
+{
+    int len = 0;
+    while (*s)
+    {
+        if ((*s & 0xC0) != 0x80) // ignore les octets de continuation UTF-8
+            len++;
+        s++;
+    }
+    return len;
+}
+
+// Affiche l'écran de résultats en fin de partie
+void display_results(int scenes, int max, int mauvais, int evenements, time_t debut, const char *lang, const char *nom)
+{
+    time_t fin = time(NULL);
+    int secondes = (int)(fin - debut);
+    int minutes = secondes / 60;
+    secondes = secondes % 60;
+
+    int est_fr = (strcmp(lang, "fr") == 0);
+
+    printf(CYAN "\n╔══════════════════════════════════════╗\n" RESET);
+
+    // Titre centré
+    const char *titre = est_fr ? "RÉSULTATS DE PARTIE" : "GAME RESULTS";
+    int len = strlen_utf8(titre);
+    printf(CYAN "║%*s" GRAS JAUNE "%s" RESET CYAN "%*s║\n" RESET,
+           (38 - len) / 2, "", titre, 38 - len - (38 - len) / 2, "");
+
+    printf(CYAN "╠══════════════════════════════════════╣\n" RESET);
+
+    // Personnage
+    char ligne[60];
+    sprintf(ligne, est_fr ? "Personnage : %s" : "Character : %s", nom);
+    len = strlen_utf8(ligne);
+    printf(CYAN "║%*s%s%*s║\n" RESET,
+           (38 - len) / 2, "", ligne, 38 - len - (38 - len) / 2, "");
+
+    printf(CYAN "╠══════════════════════════════════════╣\n" RESET);
+
+    // Scènes visitées
+    sprintf(ligne, est_fr ? "Scènes visitées : %d / %d" : "Scenes visited : %d / %d",
+            scenes, max);
+    len = strlen_utf8(ligne);
+    printf(CYAN "║%*s" VERT "%s" RESET CYAN "%*s║\n" RESET,
+           (38 - len) / 2, "", ligne, 38 - len - (38 - len) / 2, "");
+
+    // Mauvais choix
+    sprintf(ligne, est_fr ? "Mauvais choix : %d" : "Wrong choices : %d", mauvais);
+    len = strlen_utf8(ligne);
+    printf(CYAN "║%*s" ROUGE "%s" RESET CYAN "%*s║\n" RESET,
+           (38 - len) / 2, "", ligne, 38 - len - (38 - len) / 2, "");
+
+    // Événements aléatoires
+    sprintf(ligne, est_fr ? "Événements subis : %d" : "Random events : %d", evenements);
+    len = strlen_utf8(ligne);
+    printf(CYAN "║%*s" MAGENTA "%s" RESET CYAN "%*s║\n" RESET,
+           (38 - len) / 2, "", ligne, 38 - len - (38 - len) / 2, "");
+
+    // Temps de jeu
+    sprintf(ligne, est_fr ? "Temps de jeu : %d min %02d sec" : "Play time : %d min %02d sec",
+            minutes, secondes);
+    len = strlen_utf8(ligne);
+    printf(CYAN "║%*s" JAUNE "%s" RESET CYAN "%*s║\n" RESET,
+           (38 - len) / 2, "", ligne, 38 - len - (38 - len) / 2, "");
+
+    printf(CYAN "╚══════════════════════════════════════╝\n" RESET);
+}
+
 // Initialisation
 int main(int argc, char *argv[])
 {
@@ -500,6 +571,10 @@ int main(int argc, char *argv[])
     const GameTexts *txt;
     char input_buffer[100];
     int max_scenes = 27; 
+    int nb_mauvais_choix = 0;
+    int nb_evenements = 0;
+    int nb_scenes_visitees = 0;
+    time_t temps_debut = time(NULL);
 
     // Chargement du logo et sélection de la langue
     load_scene("menu", "logo.md");
@@ -975,6 +1050,7 @@ int main(int argc, char *argv[])
         {
             printf(ROUGE "\n%s\n" RESET, txt->unknown_choice);
             choix_invalide = 0;
+            nb_mauvais_choix++;
         }
 
         char ligne_perso[60];
@@ -1030,10 +1106,14 @@ int main(int argc, char *argv[])
         else
         {
             current_scene = next_scene;
+            nb_scenes_visitees++;
 
             if (fin == 0)
             {
+                SceneType scene_avant = current_scene;
                 current_scene = trigger_random_event(lang, current_scene);
+                if (current_scene != scene_avant)
+                    nb_evenements++;
             }
 
             if (fin == 1)
@@ -1049,7 +1129,10 @@ int main(int argc, char *argv[])
                     load_scene(final_path, final_file);
                 }
 
-                printf("\nAppuie sur Entree pour quitter...");
+                display_results(nb_scenes_visitees, max_scenes, nb_mauvais_choix, nb_evenements, temps_debut, lang, personnage.nom);
+
+                printf("\n%s\n", txt->thanks);
+                printf("\nAppuie sur Entrée pour quitter...");
                 fgets(input_buffer, sizeof(input_buffer), stdin);
                 game_running = 0;
             }
