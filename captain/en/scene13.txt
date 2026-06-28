@@ -1,0 +1,8 @@
+You have entered room 138.
+You come across Mrs La Dauphine, dozing off on her papers to grade.
+Help her out!
+"What did Cicero say?"
+[CHOICE]
+1. "The eyes are the mirror of the soul"
+2. "The soul is the mirror of the eyes"
+3. "The mirror is the mirror of the mirror"

@@ -1,0 +1,6 @@
+Not bad for a start! Let's keep going...
+"The acronym GDP stands for..."
+[CHOICE]
+1. Gross Domestic Product
+2. General Domestic Policy
+3. Global Development Plan

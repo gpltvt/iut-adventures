@@ -1,0 +1,6 @@
+The last question is simple... You are lucky!
+"The print() function is a... function"
+[CHOICE]
+1. ...display
+2. ...input
+3. ...affine

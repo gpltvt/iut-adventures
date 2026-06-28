@@ -1,0 +1,6 @@
+Good... But I must ask you one last question...
+"The acronym ICT stands for..."
+[CHOICE]
+1. Innovative Collective Technologies!
+2. Information and Communication Technologies
+3. Innovation and Communication Technologies

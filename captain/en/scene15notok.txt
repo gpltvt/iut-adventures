@@ -1,0 +1,6 @@
+You are starting to feel the heat on your head.
+"The function signature is accessible via the ... and is returned as a ..."
+[CHOICE]
+1. ...file...list
+2. ...terminal...text
+3. ...code...dictionary

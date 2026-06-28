@@ -1,0 +1,6 @@
+Make an effort! At least one last effort!
+"The acronym ICT stands for..."
+[CHOICE]
+1. Innovative Collective Technologies!
+2. Information and Communication Technologies
+3. Innovation and Communication Technologies

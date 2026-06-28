@@ -1,0 +1,6 @@
+Mr Panda is proud of you... for now at least...
+"What is the UIT's email address?"
+[CHOICE]
+1. iutinfo@univ-littoral.fr
+2. iutinfo@univ-cotedopale.fr
+3. iutinfo@iut-calais.fr

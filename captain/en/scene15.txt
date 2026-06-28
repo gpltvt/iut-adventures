@@ -1,0 +1,6 @@
+Maybe you will get to finish your coffee in peace...
+"The function signature is accessible via the ... and is returned as a ..."
+[CHOICE]
+1. ...file...list
+2. ...terminal...text
+3. ...code...dictionary
