@@ -1,5 +1,5 @@
 
-      Gaelle presents...           
+      Gaëlle presents...           
      _____ _    _ _______                 
     |_   _| |  | |__   __|                
       | | | |  | |  | |                   
