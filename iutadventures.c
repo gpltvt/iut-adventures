@@ -1,8 +1,10 @@
-/* IUT ADVENTURES
+/* 
+IUT ADVENTURES
 Autrice: PLAETEVOET Gaëlle
 Jeu textuel à choix multiples - Projet BUT1 (2025-2026)
 COMPILATION: gcc iutadventures.c -o iutadventures
-EXÉCUTION: .\iutadventures.exe */
+EXÉCUTION: .\iutadventures.exe 
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
