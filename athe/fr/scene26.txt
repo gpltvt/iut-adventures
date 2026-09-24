@@ -1,4 +1,4 @@
 Vous arrivez devant la 138... Voulez-vous y entrer?
 [CHOIX]
-1. Oui
-2. Non!!!!!!
+1. Oui, en espérant y trouver un problème de maths...
+2. Non, vous n'y êtes jamais alors pourquoi commencer aujourd'hui?

@@ -1,5 +1,5 @@
 Vous êtes maintenant au premier étage!
-A ce niveau, vous pouvez...
+À ce niveau, vous pouvez...
 [CHOIX]
 1. Aller à gauche
 2. Aller à droite

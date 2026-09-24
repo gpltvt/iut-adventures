@@ -1,4 +1,4 @@
-Vous commencez à sentir la chaleur du café sur votre crâne...
+Mr Cocot commence à faire couler son café sur votre crâne... c'est bien trop chaud!
 « La fonction print() est une fonction... »
 [CHOIX]
 1. d'impression 

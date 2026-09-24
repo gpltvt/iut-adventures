@@ -3,4 +3,4 @@ Vous vous trouvez actuellement dans le Grand Amphi...
 Souhaitez-vous sortir de celui-ci?
 [CHOIX]
 1. OUI 
-2. NON, j'aimerais bien faire cours a l'amphi vide. 
+2. NON, j'aimerais bien faire cours à l'amphi vide. 
